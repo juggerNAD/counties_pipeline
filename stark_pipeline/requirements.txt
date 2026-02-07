@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+pdfplumber
+pillow
+transformers
+torch
+doctr

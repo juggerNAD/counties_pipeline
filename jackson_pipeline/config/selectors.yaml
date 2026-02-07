@@ -1,0 +1,5 @@
+selectors:
+  case_table_rows: "table tr"
+  docket_rows: "tr.docketRow"
+  pdf_links: "a[href$='.pdf']"
+  expand_icon: "a.expand"

@@ -1,0 +1,21 @@
+scraper:
+  request_timeout: 30
+  max_retries: 3
+  throttle_seconds: 2
+
+pdf:
+  min_text_length: 50
+  ocr_fallback: true
+
+filters:
+  exclude_case_types:
+    - "Small Est Affidavit"
+    - "Guardian"
+    - "Conservatorship"
+
+phone_extraction:
+  document_keywords:
+    - "app"
+    - "affd"
+    - "application"
+    - "affidavit"

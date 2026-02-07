@@ -1,0 +1,8 @@
+selenium
+beautifulsoup4
+requests
+pandas
+pdfplumber
+tqdm
+lxml
+python-dotenv  # optional for config

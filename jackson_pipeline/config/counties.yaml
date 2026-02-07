@@ -1,0 +1,12 @@
+counties:
+  SLC:
+    name: "St. Louis County"
+    court_code: "CT21"
+
+  JAC:
+    name: "Jackson County"
+    court_code: "CT16"
+
+  GRE:
+    name: "Greene County"
+    court_code: "CT10"

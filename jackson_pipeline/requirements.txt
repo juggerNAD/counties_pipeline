@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+lxml
+pytesseract
+pdfplumber
+PyMuPDF
+python-dateutil
+tenacity
+pandas
+pyyaml

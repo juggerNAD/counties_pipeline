@@ -1,0 +1,5 @@
+selenium
+pytesseract
+pdf2image
+pillow
+requests

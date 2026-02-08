@@ -10,3 +10,4 @@ while start < datetime.today():
     cases = fetch_probate_cases(session, "SLC", start)
     # process cases...
     start += timedelta(days=7)
+

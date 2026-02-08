@@ -1,0 +1,29 @@
+search_results:
+  case_rows:
+    by: xpath
+    value: "//table[contains(@class,'caseList')]//tr[td]"
+
+  case_link:
+    by: xpath
+    value: ".//a[contains(@href,'caseDetail')]"
+
+case_detail:
+  parties_section:
+    by: xpath
+    value: "//h3[contains(text(),'Parties')]/following::table[1]"
+
+  docket_table:
+    by: xpath
+    value: "//h3[contains(text(),'Docket Entries')]/following::table[1]"
+
+  docket_rows:
+    by: xpath
+    value: ".//tr[td]"
+
+  docket_pdf_link:
+    by: xpath
+    value: ".//a[contains(@href,'.pdf')]"
+
+  docket_expand_icon:
+    by: xpath
+    value: ".//img[contains(@onclick,'toggle')]"

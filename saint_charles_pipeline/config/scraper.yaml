@@ -1,1 +1,54 @@
+# ===============================
+# Missouri Case.net Scraper Config
+# ===============================
+
+base_url: "https://www.courts.mo.gov"
+search_endpoint: "/casenet/searchResult.do"
+
+county:
+  code: "SLC"
+  name: "Saint Charles"
+
+court:
+  code: "CT21"
+  type: "Probate"
+
+search:
+  days_window: 7
+  case_status: "A"
+
+headers:
+  User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+  Accept: "text/html,application/xhtml+xml"
+  Accept-Language: "en-US,en;q=0.9"
+  Connection: "keep-alive"
+
+timeouts:
+  connect: 10
+  read: 30
+
+throttle:
+  min_delay: 1.5
+  max_delay: 3.5
+
+filters:
+  exclude_case_types:
+    - "Small Est"
+    - "Guardian"
+    - "Conserv"
+
+pdf:
+  keywords:
+    - "app"
+    - "affd"
+  max_pages_to_scan: 2
+  ocr_fallback: false
+
+output:
+  save_csv: true
+  csv_path: "output/results.csv"
+
+logging:
+  level: "INFO"
+  log_dir: "data/logs"
 

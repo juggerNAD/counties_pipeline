@@ -1,0 +1,12 @@
+# XPaths or CSS selectors used in scraping
+
+search:
+  rows: "//table[contains(@class,'caseList')]//tr[td]"
+  link: ".//a[contains(@href,'caseDetail')]"
+
+case:
+  parties_table: "//h3[contains(text(),'Parties')]/following::table[1]"
+  docket_table: "//h3[contains(text(),'Docket Entries')]/following::table[1]"
+  docket_rows: ".//tr[td]"
+  pdf_link: ".//a[contains(@href,'.pdf')]"
+  expand_icon: ".//img[contains(@onclick,'toggle')]"

@@ -1,1 +1,39 @@
+# =====================================
+# Missouri Case.net Counties Definition
+# =====================================
+
+missouri:
+  saint_charles:
+    display_name: "Saint Charles County"
+    county_code: "SLC"
+    court_code: "CT21"
+    probate_location:
+      required: true
+      location_code: "SL"
+    notes: "Supports Probate court filtering"
+
+  saint_louis:
+    display_name: "Saint Louis County"
+    county_code: "STL"
+    court_code: "CT21"
+    probate_location:
+      required: false
+      location_code: null
+    notes: "Use all locations"
+
+  jackson:
+    display_name: "Jackson County"
+    county_code: "JAC"
+    court_code: "CT21"
+    probate_location:
+      required: false
+      location_code: null
+
+  greene:
+    display_name: "Greene County"
+    county_code: "GRE"
+    court_code: "CT21"
+    probate_location:
+      required: true
+      location_code: "GR"
 
